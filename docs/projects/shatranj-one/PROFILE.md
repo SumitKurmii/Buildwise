@@ -1,13 +1,16 @@
 # Project Profile — Shatranj One
 
-**Status:** Profile baseline created (`GENERATED`); authoritative doc import (`ROADMAP_GATES.md`) is `BLOCKED` pending owner-supplied read-only source files.
+**Status:** Profile baseline created and authoritative documentation imported (`GENERATED`; awaiting owner Phase 0 review).
 
 ## 1. Identity & Scope
 
 - **Project name:** Shatranj One
 - **Tenant scope:** Personal workspace owned by Sumit (first connected project in Buildwise V1.0)
 - **Repository boundary rule:** Buildwise **never** mounts, reads, modifies, or pushes to the real Shatranj One working repository. All Buildwise Phase 2/5/6 development and tests use approved read-only source copies or a disposable fixture clone at a pinned commit.
-- **Repository / fixture reference:** `PENDING OWNER INPUT` (awaiting pinned commit SHA and dirty-working-tree flag per **A1**)
+- **Approved source snapshot (A1):**
+  - Source copy directory: `docs/projects/shatranj-one/sources/` (SHA256-verified against originals by owner)
+  - Source commit SHA: `72f8ee8c9922f170ab0f04b0afda7641abdde32a`
+  - Original working tree: Clean (`dirty_working_tree: false`)
 
 ## 2. Authoritative Documentation Sources (Strict Two-File Contract)
 
@@ -28,4 +31,4 @@ Per [Runbook §5 Phase 0](../../Buildwise_V1_Antigravity_Build_Runbook.md#L124-L
 ## 4. Related Project Records
 
 - Baseline Charter: [CHARTER.md](CHARTER.md)
-- Roadmap, Gates & Acceptance Criteria Mirror: [ROADMAP_GATES.md](ROADMAP_GATES.md) *(currently `BLOCKED`)*
+- Roadmap, Gates & Acceptance Criteria Mirror: [ROADMAP_GATES.md](ROADMAP_GATES.md) *(imported `GENERATED` from `sources/PROJECT_VISION.md` & `sources/README.md` at `72f8ee8c9922f170ab0f04b0afda7641abdde32a`)*
